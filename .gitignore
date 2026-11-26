@@ -1,0 +1,23 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Секреты (если появятся ключи Roboflow)
+.env
+
+# Датасеты и веса обучения — не храним, качаются с Roboflow
+detect-simple-desk-objects*/
+detect simple desk objects*
+*.zip
+new_photos/
+
+# Результаты обучения (кроме финального best.pt — добавим отдельно)
+runs/
+
+# Служебное
+.DS_Store
+.vscode/
