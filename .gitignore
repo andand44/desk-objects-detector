@@ -21,3 +21,5 @@ runs/
 # Служебное
 .DS_Store
 .vscode/
+*.pt
+!runs/detect/train-2/weights/best.pt
